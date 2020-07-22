@@ -10,4 +10,4 @@ To get started with the mainet, see the [docs](https://github.com/hashgard/hashg
 
 Download the genesis here: [genesis]()
 
-Download the`config.toml` here: [config.toml](
+Download the`config.toml` here: [config.toml]()

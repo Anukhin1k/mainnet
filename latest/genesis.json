@@ -1,0 +1,1868 @@
+{
+  "genesis_time": "2020-08-04T07:04:18.153045177Z",
+  "chain_id": "hashgard",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "scene": {},
+    "accounts": [
+      {
+        "address": "gard1h74d4t3lwpcf909y8fzpl83kk2hp22mecssevy",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "42000010000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1rvf0hmegrdk5uw0v44l3nz44j7edtrr67rhfl3",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "42000010000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard133rg9rs8ng53y2apl8eulyr8k84hq0rseypzkv",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "42000010000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard18vwkanyyc3njq74wypgnxzgdy3fd8kgu3ujc5z",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "42000010000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1sh6h8d4u9wl8au9h4zzgm49vlz600xgn6kmqj0",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "42000010000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1cpqdny8x5su64z6v6cflam9z7jt7d6hzcvwluj",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "15000010000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard18xq5f0rj225et2fg4xdtf204fqtygdkemyupw4",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "15000010000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1d2tkv822plz3734vjwlzzrqvhmr70234xfmrd9",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "15000010000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1yzjvrpj8v24w0yxdx3y0yraj8d7x4w086f4qvl",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "15000010000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1f200hhsfnm8twa2q2qgjmmgkhql62whj5apztf",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "15000010000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1khvm3tm9xtqzt76ayml9ru97grlks5jsz0wked",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "15000010000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1xygspcgc6j3ywkvdc706dke79njx0qwdkha05l",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "1000000000000000"
+          },
+          {
+            "denom": "uggt",
+            "amount": "200000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1w66s2tn30lcs0l7lth4gzs82kuqljyc69yhn0u",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1fu8m30yq88xn9cksyjqxua6w5gdwnz3m35rf93",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1km29hdv566dwf52x4nf826hw94gu4qnkcpkzzj",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1rg7d77chmuc6tc3vg27vkkjmq6neyh7vygupef",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1u70qys4k5dm0xmewekd2fv3vds5rqjljr9xw9t",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1e0gdpt5zjkz8kcg63c2tvtjtr9k5dpl5z5tjak",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1ffkprck3gk8pm2k4tnpvenrx3z4kefvqa8r72x",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1gglwrnsny23mx606r09nksz60x03m7mwm36z85",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1v4k5gfc9u75d434j5veevvypuf759ae0g9a4h5",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1cts99acw3zd02j8gjv6t64wmukx5spsrls3w7t",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1ymjqlgwrvl2tp9rrlzwg69leehfc4c7285kmkl",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1xusn7hpt6wny46lu5qtlwrdq7pn96ptnrmvexs",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1j2s8hwcfvsutz9cr4lr6vgkjegcj8gg2gyevne",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard12hw6mqsgjajln8wpvl6akl8hpjuk0fqk4rf9xr",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1f3n0hyej527qfckh9jakq062670lyuuhxrfwah",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1tpq8a0vzjp8n5wcsk9ngxxwawzjqr7n4dtnuhs",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1j9jz3dvach2tq5zw5acwzspshvjjw27gcpypsr",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1lnetqryjttn0dc5recllgwxa9q37mr04n7nkm8",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1swfkekyuuxxxksh83mw95gx9xjmxje75lmcg87",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1e8x937fvu780nlpajkc6y8t3u7wg7cnyr959nz",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1j0l627k30nrc5cyj0hhkemynzpekmujn6k3zdg",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1krzr4ucwd5ds77p5m79klddms7wns4f7czwnpp",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1gjq275xq60ruhj2hw77ez4cvrqa0vvn69aejf6",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1drt98n5fphux7jljkyjj460l0jyqjlw872gf79",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1s6swuufzwkaccz5p3yc4ttm2e786zl6m0ms32s",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1an8m7ppsrtnu8sps27xkpzy8u2yqca45c4xkhe",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1ft8lnr6kphzqmvpjvm7f4daw80x7r9ldjgm25k",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1rq9l6k0w0va8y4ly3sagufc8dlh6026ldu0plx",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard12vr43e44cwwwvcwstkh08qysn3j3as8hmstg2c",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1dc735lpmg8zyuzjhn8f4ww5nmg4m8nzau5pjye",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1lf92jhmledesuc5j69kdvrr843jgxn673hfy6k",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1jrq7s9hwyjjef3qxazjrupfy5n9g9gfryy2y4f",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard16h69zw3c3sa4xfnwzkszy752qt0l0x6qpy6aaz",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1su58zzryn5qxukxj0x2n2qr8tx704e0jfkcm6g",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1krqyz8ng2gvu9qs5exjnw203j0wm4jckvxjr6e",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1xxz29zdkfm7v4cu2pr4qfvqfdz290qg80xcw4m",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1cteh08z86w67tu0895vq62zfysqzzxrc2tsk3q",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1h6zsrc8wecra9kzc09z3v6nnxjttf27a9zs4gd",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1vzvzalsmgw3d8300nejelz34mcg83s7kmxfm7u",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1fygu34jk2qscpvqfecd3c7plxqmy8h0g5zxzz0",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1xnygndceu83hcrkspuagdunw7c8lyejqs5m4t9",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1h95nlxjjhmkg5yus7578v5me66pgatqh2ptu59",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard14npyynwsfgkvqzat5cduf93nkyzzzepp5xnk3u",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1qvtz5apryzesxk7pzfafgmzdzkkc5quxlmdatg",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard10phv9sxdgdj5tfqkl54z2le5nw60mdpya4lzav",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1efkxnhn005dmq2gm948sm5t0gckgazflrys7jf",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1rtyejt0radd2wth2x8hmexm4f097k8c9js0600",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1q5rm6hakh6hg4f6gw7ngxr79th08c9jal29vdv",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard18u8xh884eyse780gu0504w95lmn97gp50n98na",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard199ase58vq8sak4u0ymuja5y07zp3wnlmf40hus",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "498000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard10a6z7xpa9yj425kpw7tm4kjtkzap98dusschty",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "200000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1504mupctwskadd9u4xcnmwda43ywgu8prxq093",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "50000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1m3qfgan3dy6caczq2t00clw5nyt6vgzam3g9q9",
+        "coins": [
+          {
+            "denom": "uggt",
+            "amount": "800000000000000"
+          },
+          {
+            "denom": "ugard",
+            "amount": "50000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "address": "gard1dkrahrz83mz73dsm93peqz3yjjqeagcye357pj",
+        "coins": [
+          {
+            "denom": "ugard",
+            "amount": "8499974890000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": null
+      }
+    ],
+    "supply": {
+      "supply": []
+    },
+    "params": null,
+    "migrate": {
+      "params": {
+        "erc20_migrate_disabled": false
+      },
+      "exchange": {
+        "exchange_from": "gard1dkrahrz83mz73dsm93peqz3yjjqeagcye357pj",
+        "rewards_from": "gard10a6z7xpa9yj425kpw7tm4kjtkzap98dusschty",
+        "allows": "gard1w66s2tn30lcs0l7lth4gzs82kuqljyc69yhn0u,gard1fu8m30yq88xn9cksyjqxua6w5gdwnz3m35rf93,gard1km29hdv566dwf52x4nf826hw94gu4qnkcpkzzj,gard1rg7d77chmuc6tc3vg27vkkjmq6neyh7vygupef,gard1u70qys4k5dm0xmewekd2fv3vds5rqjljr9xw9t,gard1e0gdpt5zjkz8kcg63c2tvtjtr9k5dpl5z5tjak,gard1ffkprck3gk8pm2k4tnpvenrx3z4kefvqa8r72x,gard1gglwrnsny23mx606r09nksz60x03m7mwm36z85,gard1v4k5gfc9u75d434j5veevvypuf759ae0g9a4h5,gard1cts99acw3zd02j8gjv6t64wmukx5spsrls3w7t,gard1ymjqlgwrvl2tp9rrlzwg69leehfc4c7285kmkl,gard1xusn7hpt6wny46lu5qtlwrdq7pn96ptnrmvexs,gard1j2s8hwcfvsutz9cr4lr6vgkjegcj8gg2gyevne,gard12hw6mqsgjajln8wpvl6akl8hpjuk0fqk4rf9xr,gard1f3n0hyej527qfckh9jakq062670lyuuhxrfwah,gard1tpq8a0vzjp8n5wcsk9ngxxwawzjqr7n4dtnuhs,gard1j9jz3dvach2tq5zw5acwzspshvjjw27gcpypsr,gard1lnetqryjttn0dc5recllgwxa9q37mr04n7nkm8,gard1swfkekyuuxxxksh83mw95gx9xjmxje75lmcg87,gard1e8x937fvu780nlpajkc6y8t3u7wg7cnyr959nz,gard1j0l627k30nrc5cyj0hhkemynzpekmujn6k3zdg,gard1krzr4ucwd5ds77p5m79klddms7wns4f7czwnpp,gard1gjq275xq60ruhj2hw77ez4cvrqa0vvn69aejf6,gard1drt98n5fphux7jljkyjj460l0jyqjlw872gf79,gard1s6swuufzwkaccz5p3yc4ttm2e786zl6m0ms32s,gard1an8m7ppsrtnu8sps27xkpzy8u2yqca45c4xkhe,gard1ft8lnr6kphzqmvpjvm7f4daw80x7r9ldjgm25k,gard1rq9l6k0w0va8y4ly3sagufc8dlh6026ldu0plx,gard12vr43e44cwwwvcwstkh08qysn3j3as8hmstg2c,gard1dc735lpmg8zyuzjhn8f4ww5nmg4m8nzau5pjye,gard1lf92jhmledesuc5j69kdvrr843jgxn673hfy6k,gard1jrq7s9hwyjjef3qxazjrupfy5n9g9gfryy2y4f,gard16h69zw3c3sa4xfnwzkszy752qt0l0x6qpy6aaz,gard1su58zzryn5qxukxj0x2n2qr8tx704e0jfkcm6g,gard1krqyz8ng2gvu9qs5exjnw203j0wm4jckvxjr6e,gard1xxz29zdkfm7v4cu2pr4qfvqfdz290qg80xcw4m,gard1cteh08z86w67tu0895vq62zfysqzzxrc2tsk3q,gard1h6zsrc8wecra9kzc09z3v6nnxjttf27a9zs4gd,gard1vzvzalsmgw3d8300nejelz34mcg83s7kmxfm7u,gard1fygu34jk2qscpvqfecd3c7plxqmy8h0g5zxzz0,gard1xnygndceu83hcrkspuagdunw7c8lyejqs5m4t9,gard1h95nlxjjhmkg5yus7578v5me66pgatqh2ptu59,gard14npyynwsfgkvqzat5cduf93nkyzzzepp5xnk3u,gard1qvtz5apryzesxk7pzfafgmzdzkkc5quxlmdatg,gard10phv9sxdgdj5tfqkl54z2le5nw60mdpya4lzav,gard1efkxnhn005dmq2gm948sm5t0gckgazflrys7jf,gard1rtyejt0radd2wth2x8hmexm4f097k8c9js0600,gard1q5rm6hakh6hg4f6gw7ngxr79th08c9jal29vdv,gard18u8xh884eyse780gu0504w95lmn97gp50n98na,gard199ase58vq8sak4u0ymuja5y07zp3wnlmf40hus"
+      },
+      "erc20_migrated_tx_hash": [
+        "0x89800d4e31b2bd114aad023bdd2022120a174d54315491289bdaa897ec8980a1",
+        "0xac7243acb787b59898f3772a48f37f976070979b63c5eedf2a985ed31449283e"
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "super_voter": "",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "ugard",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "172800000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000",
+        "super_voter": "gard1tgqherl66wwvtkx803ecyxgnupv643d4ejzacr"
+      }
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "ugard",
+        "amount": "1000"
+      }
+    },
+    "slashing": {
+      "params": {
+        "max_evidence_age": "120000000000",
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "grid999": {
+      "dapps": [],
+      "grids": [],
+      "params": {
+        "owners": "gard1504mupctwskadd9u4xcnmwda43ywgu8prxq093",
+        "per_grid_max_deposits": "100",
+        "generate_dapp_fee": {
+          "denom": "ugard",
+          "amount": "1000000000"
+        },
+        "create_grid_fee": {
+          "denom": "ugard",
+          "amount": "10000000"
+        },
+        "deposit_fee": {
+          "denom": "ugard",
+          "amount": "0"
+        },
+        "withdraw_rewards_fee": {
+          "denom": "ugard",
+          "amount": "10000000"
+        },
+        "fee_withdraw_fee": "0.020000000000000000"
+      },
+      "last_dapps_id": "0",
+      "last_grid_id": []
+    },
+    "genutil": {
+      "gentxs": [
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "Asgard",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "gard1h74d4t3lwpcf909y8fzpl83kk2hp22mecssevy",
+                  "validator_address": "gardvaloper1h74d4t3lwpcf909y8fzpl83kk2hp22me2ja3uf",
+                  "pubkey": "gardvalconspub1zcjduepqmsrdt2v600cq2camugpqfkfhk2es0cwhw6f9hqmyv7lqc3qg83vql7r7av",
+                  "value": {
+                    "denom": "ugard",
+                    "amount": "42000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A5qfgmzz2MtFWnt0NW3RfyTAxts/xooNspSrpxuNBhZJ"
+                },
+                "signature": "HbI9zyqlKQLi42ekHdX9AbwbqlgBy1BLNip6/GndAORNKxrUMjI/2v5fKNuNfDyH0uPdBLDLHQVmdB2BnSR17g=="
+              }
+            ],
+            "memo": "c6747e4472a8764a33182543dd181716c0ec5351@101.132.106.170:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "hashgardian-4",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "gard1yzjvrpj8v24w0yxdx3y0yraj8d7x4w086f4qvl",
+                  "validator_address": "gardvaloper1yzjvrpj8v24w0yxdx3y0yraj8d7x4w08gtcguj",
+                  "pubkey": "gardvalconspub1zcjduepq40l9g53snh0k8r73q84lg0ldp0xxaag8mmwmck040qsnmjq3u87qydrdgq",
+                  "value": {
+                    "denom": "ugard",
+                    "amount": "15000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A1ahUVLRUo6IEsvJYTd15g2Lr0yv/AqOmAedlerH/XyT"
+                },
+                "signature": "bZNIRs4O+8RUBaevCrI6eSKdfJEsQkoulMuWBswmG0xePy2QMi0Z7nFJYVI90Wxx4SsRKXtUABlSm+/LFAdpgQ=="
+              }
+            ],
+            "memo": "23c3e97f3a09b0d04b5818c1303437115b09b386@106.12.23.41:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "hashgardian-5",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "gard1f200hhsfnm8twa2q2qgjmmgkhql62whj5apztf",
+                  "validator_address": "gardvaloper1f200hhsfnm8twa2q2qgjmmgkhql62whjxlv2my",
+                  "pubkey": "gardvalconspub1zcjduepqq7nesdp3tshng5cdshrfl7wjyyk8zdfss9dhv4yjr49w4dwq5pqq7tt5sf",
+                  "value": {
+                    "denom": "ugard",
+                    "amount": "15000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AzKGAwPIee0G9ePBokNarI8EgeCClkOjeqko7BZ8EiUd"
+                },
+                "signature": "xG/IYgcW1a28HbxSqtrLo7Tlaj5UeNIlk0VTvuiS8406LN7YstRs9QCg7d5Xg/VAj/DfFbqduzOyP+YO1Sw2wQ=="
+              }
+            ],
+            "memo": "77a554453a935e2eb28e759aaee99cab2befe32d@106.13.187.123:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "Midgard",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "gard18vwkanyyc3njq74wypgnxzgdy3fd8kgu3ujc5z",
+                  "validator_address": "gardvaloper18vwkanyyc3njq74wypgnxzgdy3fd8kgur7lsy0",
+                  "pubkey": "gardvalconspub1zcjduepqc6ptmanlq096qrp4y63y5p2vhte5u7l0ul8mt25yyklh4nnw23lsau3gsd",
+                  "value": {
+                    "denom": "ugard",
+                    "amount": "42000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A8K2uqm/NVeZKTFdMfRxWOsDP6xkzI0C/qSCELc75U2t"
+                },
+                "signature": "K4POhWf0jjAbAHRWeYllvavUGgHmjUgTgXhKJD522x98wmPfQMykmYo+V462ge9qpWdFJ3GzRhV9UtaSma3i4w=="
+              }
+            ],
+            "memo": "72894ea1cf33f27f3ddfad3915c351248512b648@106.14.62.212:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "hashgardian-6",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "gard1khvm3tm9xtqzt76ayml9ru97grlks5jsz0wked",
+                  "validator_address": "gardvaloper1khvm3tm9xtqzt76ayml9ru97grlks5jssdr7fq",
+                  "pubkey": "gardvalconspub1zcjduepqpln3yefjax04zmdnj98n3axups8r0ds63rgyatr2myjymjdmcvvs2uadv7",
+                  "value": {
+                    "denom": "ugard",
+                    "amount": "15000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A+XOYitIjYtWJpbkQ7MVKCQUnOUCRiTQvZkW7e/v9GJD"
+                },
+                "signature": "cRprR1YmWSdS5SzdJrgb0JGGBTR4Q8Mn07x5iUIucwpHReJP8S0N18HSgm+HT6SQrlN2Tj2ahJvYQDIRIUozTA=="
+              }
+            ],
+            "memo": "0f0ec1e43919a946bbe0a72160dd147dea858ab6@114.67.89.244:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "Jothuheim",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "gard1sh6h8d4u9wl8au9h4zzgm49vlz600xgn6kmqj0",
+                  "validator_address": "gardvaloper1sh6h8d4u9wl8au9h4zzgm49vlz600xgng5kgzz",
+                  "pubkey": "gardvalconspub1zcjduepqkwhc580lv3pptnjrwzk5hq3jzqaud4fu6vahaa4uf5ycp7kjrevsy9zzvs",
+                  "value": {
+                    "denom": "ugard",
+                    "amount": "42000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A32SwpKWShJbx0og2mSPiRzydyuoZoY6iZ/csUSrRPxg"
+                },
+                "signature": "WWMvvCu2iKppT7c5Sju0EZtmxbM0wYSfT8UO9hXh+Ww3wcdoWmmS+ZWUMnim37ZN/n33aaQ8m0h9CRHhxKGuDQ=="
+              }
+            ],
+            "memo": "aaf347dee256fa2b507a7907b6413a05a9fd6f03@139.196.192.97:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "hashgardian-1",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "gard1cpqdny8x5su64z6v6cflam9z7jt7d6hzcvwluj",
+                  "validator_address": "gardvaloper1cpqdny8x5su64z6v6cflam9z7jt7d6hz2wrhvl",
+                  "pubkey": "gardvalconspub1zcjduepqfq02892kej6wf84n9netsxzdvkxn9jn85sxfjhkstmef0esklg9q327rmt",
+                  "value": {
+                    "denom": "ugard",
+                    "amount": "15000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "Al/jaaqku/7eNDr2z0QFPBekjkWzTBb1jGGzPvRJkCW4"
+                },
+                "signature": "45fgYXEmdoor8+IwCCXLdmlzIbfE4qI4GzNzq52TEaI6WaPrEJPLcvBU46w9wvTjBvoTSBOcihPMwANXsRT+mw=="
+              }
+            ],
+            "memo": "bb4a1db4dd826ee0d66050248d4c3ee472ba8d59@139.196.28.248:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "Alfheim",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "gard133rg9rs8ng53y2apl8eulyr8k84hq0rseypzkv",
+                  "validator_address": "gardvaloper133rg9rs8ng53y2apl8eulyr8k84hq0rstxv2xp",
+                  "pubkey": "gardvalconspub1zcjduepqm52kds2dl7j5z9ruj0dg6tc0439j2jyw03tu9ma3za4fz9vrggwqlk54c4",
+                  "value": {
+                    "denom": "ugard",
+                    "amount": "42000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "Anl3dP2wpLuBnVsCX860+WsetA87S58Vpaq7IjiihUjM"
+                },
+                "signature": "VZ8ziptF/nmsyn7sIIHm3qYlAle5K0AGQsFPhwo+Bs8aVdf+gsqx/wV31wE5smESm6ChEjaWsF34sbav2Q6nWg=="
+              }
+            ],
+            "memo": "483bd731b37d7e06b26c3fd1c89a39cac5093d25@139.224.74.159:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "Vanaheim",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "gard1rvf0hmegrdk5uw0v44l3nz44j7edtrr67rhfl3",
+                  "validator_address": "gardvaloper1rvf0hmegrdk5uw0v44l3nz44j7edtrr6vp6p0u",
+                  "pubkey": "gardvalconspub1zcjduepqg0d0n6z2q86pftzd5nejaed95tdfm6g9hwkykrg5af7mkg9zmdqq30pzsd",
+                  "value": {
+                    "denom": "ugard",
+                    "amount": "42000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "Au7m02wvuVqS7A+7Hck9lMauasqb/kt3CifAbdNq3gIt"
+                },
+                "signature": "8oZ2Fjufrxn6Z+AZ3FMbXvvBdbGykxcL3cNG68AD2RdTReoOdNXFHV/byXGx5BHltcZCv9x7dEDxXfJ9TQxykA=="
+              }
+            ],
+            "memo": "f276cccfa19f23db5edc3be396c39566b03e49b2@139.224.75.188:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "hashgardian-2",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "gard18xq5f0rj225et2fg4xdtf204fqtygdkemyupw4",
+                  "validator_address": "gardvaloper18xq5f0rj225et2fg4xdtf204fqtygdkefx3f7c",
+                  "pubkey": "gardvalconspub1zcjduepqkn6vdwwx78duwpscg6ppuqm3kw89l72whdgq7q5d4hdsvl72tycsq6ugnx",
+                  "value": {
+                    "denom": "ugard",
+                    "amount": "15000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AoWS/Gwi7tcEosopmOR7xwn6iDkhDRLHd9aVR2794O1A"
+                },
+                "signature": "+qgPcl5WvSs0jtz8HLwTpKLnFISVeQCBSiYy/aBXrKd9Ic2LjM17ww++R32gI/ndBMlLHYRGO8RRDcnATlnkCQ=="
+              }
+            ],
+            "memo": "9b9fabdb779f917e2133809e73148f4c23d9a9f9@152.136.112.253:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "hashgardian-3",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "gard1d2tkv822plz3734vjwlzzrqvhmr70234xfmrd9",
+                  "validator_address": "gardvaloper1d2tkv822plz3734vjwlzzrqvhmr702345tktag",
+                  "pubkey": "gardvalconspub1zcjduepqxacf0v4n03hel7ace09kksdy4z7n5ddzpj3mkz28we7u6reczfusqsmy9c",
+                  "value": {
+                    "denom": "ugard",
+                    "amount": "15000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A/r1EMYkiYI8iYNC8W3yeUxf9P+kNbcfmcp7RId7gj1R"
+                },
+                "signature": "w6Djq98BKaKkmSzCcUUnQsQw+HTO6AMVwUCVnZzepyUbBudqN/m4/AdV1Y5kzUOjy/R3hXeKjFKjwbIR36bgEQ=="
+              }
+            ],
+            "memo": "8af5687036b0d1c859508a769141b8b60d5852d2@175.24.107.45:26656"
+          }
+        }
+      ]
+    },
+    "distribution": {
+      "fee_pool": {
+        "community_pool": []
+      },
+      "community_tax": "0.020000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.000000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "ugard",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "10519200",
+        "per_block_mint": "0:0|10:120000000ugard,25000000uggt|5241600:60000000ugard,12500000uggt|10512000:30000000ugard",
+        "minter_supply_address": "gard1xygspcgc6j3ywkvdc706dke79njx0qwdkha05l"
+      }
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 21,
+        "max_entries": 7,
+        "bond_denom": "ugard"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    }
+  }
+}

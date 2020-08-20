@@ -131,6 +131,6 @@ You have an active Hashgard Full Node now. What's next?
 
 ### Step 5: Upgrade to Validator Node
 
-you can upgrade your node to Validator Node according to [Create Validator](../docs/create-validator.md).
+you can upgrade your node to Validator Node according to [Create Validator](./create-validator.md).
 
 You could try Delegate, Undelegate, Redelegate.

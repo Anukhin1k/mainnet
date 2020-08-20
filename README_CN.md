@@ -24,7 +24,7 @@ Hashgard 公链基于 Cosmos-SDK 开发，Cosmos SDK 是使用 Go 语言开发�
 
 ### 安装hashgard
 
-从 github [下载](https://github.com/hashgard/hashgard/releases/tag/v1.1.0) 您的操作系统所对应的版本，并将可执行程序 hashgardd、hashgardcli 解压到对应的目录下：
+从 github [下载](https://github.com/hashgard/hashgard/releases) 您的操作系统所对应的版本，并将可执行程序 hashgardd、hashgardcli 解压到对应的目录下：
 
 - Linux: /usr/local/bin
 

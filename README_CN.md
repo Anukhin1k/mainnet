@@ -114,7 +114,7 @@ hashgardcli status
 你可以通过抵押token来创建一个新的验证人。你可以通过运行下面的命令来查看你的验证人公钥：
 
 ```bash
-hashgardd tendermint show-validator
+hashgardd tendermint show-validator --home <path>
 ```
 
 使用下面的命令创建你的验证人：
@@ -126,7 +126,7 @@ hashgardd tendermint show-validator
 ```bash
 hashgardcli tx staking create-validator \
   --amount=1000000ugard \
-  --pubkey=$(gaiad tendermint show-validator) \
+  --pubkey=$(gaiad tendermint show-validator --home <path>) \
   --moniker="choose a moniker" \
   --chain-id=hashgard \
   --commission-rate="0.10" \

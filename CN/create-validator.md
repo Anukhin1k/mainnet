@@ -22,7 +22,7 @@ hashgardd tendermint show-validator
 ```bash
 hashgardcli tx staking create-validator \
   --amount=1000000ugard \
-  --pubkey=$(gaiad tendermint show-validator) \
+  --pubkey=$(hashgardd tendermint show-validator) \
   --moniker="choose a moniker" \
   --chain-id=hashgard \
   --commission-rate="0.10" \

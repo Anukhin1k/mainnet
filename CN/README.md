@@ -11,7 +11,7 @@
 ### 步骤 2：创建钱包
 
 ```bash
-hashgardcli keys add ${your_wallet_name}
+hashgardcli keys add ${your_wallet_name} --home <path>
 ```
 
 记得在创建钱包后，将助记词妥善保存在安全的地方。
@@ -74,7 +74,7 @@ moniker = "<your moniker name>"
 使用以下命令启动节点：
 
 ```bash
-hashgardd start > hashgard.log &
+hashgardd start > hashgard.log & --home <path>
 ```
 
 检查节点状态是否正常：

@@ -74,7 +74,7 @@ moniker = "<your moniker name>"
 使用以下命令启动节点：
 
 ```bash
-hashgardd start > hashgard.log & --home <path>
+hashgardd start --home <path> > hashgard.log & 
 ```
 
 检查节点状态是否正常：

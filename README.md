@@ -11,7 +11,7 @@ You can install Hashgard according to [Hashgard Installation Guide](installation
 ### Step 2: Create Your Wallet
 
 ```bash
-hashgardcli keys add ${your_wallet_name}
+hashgardcli keys add ${your_wallet_name} --home <path>
 ```
 
 Remember to write your seed phrase in a safe place after you created a wallet.
@@ -73,7 +73,7 @@ moniker = "<your moniker name>"
 Run it with command:
 
 ```bash
-hashgardd start > hashgard.log & --home <path>
+hashgardd start --home <path> > hashgard.log & 
 ```
 
 Check the status of your node:

@@ -124,7 +124,7 @@ hashgardcli status
 
 当您看到 `catching_up` 是 `false`，表示节点的区块数据与 testnet 已经同步完成，否则表示它仍在同步。
 
-您现在已经成功运行了一个 Hashgard 完整节点并接入了 sif-8000 测试网。
+您现在已经成功运行了一个 Hashgard 完整节点并接入主网。
 
 ## 后续步骤
 
@@ -136,6 +136,6 @@ hashgardcli status
 
 您也可以委托，解绑，再委托。
 
-### 步骤 7：发行自定义TOKEN
+### 步骤 7：验证人节点发行TOKEN
 
 当您的节点成为Hashgard验证人节点且满足条件后，您可以 [发行自定义的token](./issue-token.md)通过链上挖出。

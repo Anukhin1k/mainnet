@@ -14,7 +14,7 @@
 您可以通过运行以下命令找到验证人 pubkey：
 
 ```bash
-hashgardd tendermint show-validator
+hashgardd tendermint show-validator --home <path>
 ```
 
 接下来，通过 hashgardcli tx staking create-validator 命令使节点升为验证人节点：
@@ -22,7 +22,7 @@ hashgardd tendermint show-validator
 ```bash
 hashgardcli tx staking create-validator \
   --amount=1000000ugard \
-  --pubkey=$(hashgardd tendermint show-validator) \
+  --pubkey=$(hashgardd tendermint show-validator --home <path>) \
   --moniker="choose a moniker" \
   --chain-id=hashgard \
   --commission-rate="0.10" \

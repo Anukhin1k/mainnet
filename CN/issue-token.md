@@ -7,7 +7,7 @@
 查询命令：
 
 ```
-hashgardcli query staking issue-token-config
+hashgardcli query staking issue-token-config --home <path>
 ```
 
 返回结果：
@@ -44,7 +44,7 @@ hashgardcli query staking issue-token-config
 发行代币命令：
 
 ```
-hashgardcli tx staking issue-token stake_issue_token.json --from ${name}
+hashgardcli tx staking issue-token stake_issue_token.json --from ${name} --home <path>
 ```
 
 `stake_issue_token.json`内容：

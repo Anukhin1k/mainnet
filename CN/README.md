@@ -29,15 +29,15 @@ hashgardcli keys list
 设置 hashgardcli 命令行客户端的默认连接节点：
 
 ```bash
-hashgardcli config chain-id hashgard
-hashgardcli config trust-node true
+hashgardcli config chain-id hashgard --home <path>
+hashgardcli config trust-node true --home <path>
 ```
 
 格式化输出：
 
 ```plain
-hashgardcli config indent true
-hashgardcli config output json
+hashgardcli config indent true --home <path>
+hashgardcli config output json --home <path>
 ```
 
 ### 步骤 4：初始化节点并获取配置文件
@@ -80,7 +80,7 @@ hashgardd start --home <path> > hashgard.log &
 检查节点状态是否正常：
 
 ```bash
-hashgardcli status
+hashgardcli status --home <path>
 ```
 
 如果节点成功运行，您将看到以下输出:

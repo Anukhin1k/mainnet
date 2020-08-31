@@ -73,7 +73,7 @@ moniker = "<your moniker name>"
 Run it with command:
 
 ```bash
-hashgardd start > hashgard.log &
+hashgardd start > hashgard.log & --home <path>
 ```
 
 Check the status of your node:

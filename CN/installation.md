@@ -30,8 +30,8 @@ Hashgard 公链基于 Cosmos-SDK 开发，Cosmos SDK 是使用 Go 语言开发�
 当完成解压之后，可在 Terminal / CMD 中检查是否安装成功：
 
 ```bash
-hashgardd help
-hashgardcli help
+hashgardd help --home <path>
+hashgardcli help --home <path>
 ```
 
 如果出现

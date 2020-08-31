@@ -14,7 +14,7 @@ Please read about Sentry Node Architecture to protect your node from DDOS attack
 Your `gardvalconspub` can be used to create a new validator by staking GARD. You can find your validator pubkey by running:
 
 ```bash
-hashgardd tendermint show-validator
+hashgardd tendermint show-validator --home <path>
 ```
 
 To create your validator, just use the following command:
@@ -22,7 +22,7 @@ To create your validator, just use the following command:
 ```bash
 hashgardcli tx staking create-validator \
   --amount=1000000ugard \
-  --pubkey=$(hashgardd tendermint show-validator) \
+  --pubkey=$(hashgardd tendermint show-validator --home <path>) \
   --moniker="choose a moniker" \
   --chain-id=hashgard \
   --commission-rate="0.10" \

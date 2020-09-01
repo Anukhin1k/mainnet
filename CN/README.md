@@ -21,7 +21,7 @@ hashgardcli keys add ${your_wallet_name} --home <path>
 检测你的钱包：
 
 ```
-hashgardcli keys list
+hashgardcli keys list --home <path>
 ```
 
 ### 步骤 3：设置默认参数

@@ -31,7 +31,8 @@ hashgardcli tx staking create-validator \
   --min-self-delegation="1" \
   --gas="auto" \
   --fees="1000ugard" \
-  --from=<key_name>
+  --from=<key_name> \
+  --home <path>
 ```
 
 > commission parameters

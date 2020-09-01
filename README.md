@@ -21,7 +21,7 @@ It is the only way to recover your account if you ever forget your password.
 Check your wallets:
 
 ```bash
-hashgardcli keys list
+hashgardcli keys list --home <path>
 ```
 
 ### Step 3: Configure the Client
@@ -29,15 +29,15 @@ hashgardcli keys list
 Configure the default node to connect to:
 
 ```plain
-hashgardcli config chain-id hashgard
-hashgardcli config trust-node true
+hashgardcli config chain-id hashgard --home <path>
+hashgardcli config trust-node true --home <path>
 ```
 
 Format the output:
 
 ```plain
-hashgardcli config indent true
-hashgardcli config output json
+hashgardcli config indent true --home <path>
+hashgardcli config output json --home <path>
 ```
 
 ### Step 4：Initialize the Node and Download Config Files
@@ -79,7 +79,7 @@ hashgardd start --home <path> > hashgard.log &
 Check the status of your node:
 
 ```bash
-hashgardcli status
+hashgardcli status --home <path>
 ```
 
 You will see the output below if it runs well:

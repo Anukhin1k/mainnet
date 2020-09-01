@@ -1,4 +1,22 @@
-# 发行代币
+# 验证人节点发行代币
+
+#### 为什么要发行代币
+
+对于已经搭建验证人节点的用户，只要再锁仓一定量的GGT就可以发行属于自己的TOKEN了。
+
+验证人节点创建者抵押的GARD依然可以享受抵押收益，也可以根据设置的佣金来收取抵押者抵押到节点上的GARD收益，并且发行的TOKEN给抵押者，还可以空投给其他节点，后续还可以转到dex进行交易，转到swap去兑换。
+
+例：
+
+若节点佣金`commission-rate`=1时，抵押者抵押到节点上的GARD所产生的GARD和GGT收益都给到验证人节点创建者，获得节点创建者所发行的TOKEN。
+
+若节点佣金`commission-rate`<1时，抵押者则可以获得抵押到节点上的GARD对应比例的GARD和GGT收益，同时也获得节点创建者所发行的TOKEN。
+
+
+
+只要自建的验证人节点维持最低自抵押GARD就可以源源不断的挖出验证人节点发行的TOKEN。
+
+
 
 #### 节点所有者发行TOKEN须知：
 
@@ -27,9 +45,9 @@ hashgardcli query staking issue-token-config --home <path>
 
 `lock_coins`：锁仓GGT数量（1GGT=1000000uggt)
 
-`lock_period_height`GGT锁定周期，发行TOKEN后出块数满足要求则可赎回锁定的GGT资产，若不满足则可以发起提案通过投票的方式取回。
+`lock_period_height`自发币起GGT锁仓的高度
 
-`min_self_delegation`自质押GARD最小值，发行货币时锁定，节点退出后可以发起提案通过投票的方式取回。
+`min_self_delegation`自质押GARD最小值
 
 ##### 2、发行TOKEN您可配置是否预挖指定的数量到指定的地址
 
@@ -52,25 +70,25 @@ hashgardcli tx staking issue-token stake_issue_token.json --from ${name} --home 
 ```
 {
 	"denom": "uexp",
-	"total_supply": "100000000000000",
+	"total_supply": "1000000000000",
 	"pre_mint_address": "",
 	"pre_mint_amount": "0",
 	"description": {
-		"whole_name": "Experience",
-		"website": "https://www.exp.top/",
-		"icon": "https://www.exp.top/img/icon.png",
-		"details": "exp"
-	},
+	  "whole_name": "Experience",
+	  "website": "https://www.exp.top/",
+	  "icon": "https://www.exp.top/img/icon.png",
+	  "details": ""
+	 },
 	"genesis_height": 100000,
 	"per_block_mint": [{
 			"start_height": 100000,
-			"self_node_amount": "10000000",
-			"others_node_amount": "5000000"
+			"proposer_node_amount": "20000000",
+			"voter_node_amount": "4000000"
 		},
 		{
 			"start_height": 8200000,
-			"self_node_amount": "6000000",
-			"others_node_amount": "600000"
+			"proposer_node_amount": "10000000",
+			"voter_node_amount": "2000000"
 		}
 	]
 }
@@ -86,3 +104,8 @@ hashgardcli tx staking issue-token stake_issue_token.json --from ${name} --home 
 
 `genesis_height`发行的TOKEN开始挖矿的高度。
 
+`per_block_mint`TOKEN的挖出逻辑。
+
+`proposer_node_amount`投票节点挖出，等同于挖矿，每次发币的验证人节点出块时，该节点产出的TOKEN数量。
+
+`voter_node_amount`投票者节点，等同于空投，每次发币的验证人节点出块时，所有有效节点瓜分。

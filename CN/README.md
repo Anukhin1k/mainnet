@@ -45,7 +45,7 @@ hashgardcli config output json --home <path>
 #### 4.1：初始化节点
 
 ```bash
-hashgardd init ${your_node_name} --chain-id=hashgard --home <path>
+hashgardd init ${your_node_name} --home <path>
 ```
 
 如果您参与过hashgard的测试网，需要在使用 `init` 命令初始化节点之前删掉旧的数据文件：

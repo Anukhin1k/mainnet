@@ -60,7 +60,7 @@ rm -rf $HOME/.hashgardd
 
 #### 4.3: 修改配置文件
 
-编辑 `~/.hashgard/config/config.toml` 文件，
+编辑 `~/.hashgardd/config/config.toml` 文件，
 您需要修改其中 `moniker` 字段，
 `moniker` 是您的节点名称
 

@@ -31,8 +31,7 @@ hashgardcli tx staking create-validator \
   --min-self-delegation="1" \
   --gas="auto" \
   --fees="1000ugard" \
-  --from=<key_name> \
-  --home <path>
+  --from=<key_name>
 ```
 
 > commission 参数
@@ -50,7 +49,7 @@ hashgardcli tx staking create-validator \
 使用以下命令查看验证人的信息：
 
 ```bash
-hashgardcli query staking validator ${validator-address} --home <path>
+hashgardcli query staking validator ${validator-address}
 ```
 
 您也可以通过区块链浏览器查看验证人信息：

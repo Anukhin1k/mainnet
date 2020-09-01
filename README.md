@@ -45,7 +45,7 @@ hashgardcli config output json --home <path>
 #### 4.1: Initialization
 
 ```bash
-hashgardd init ${your_node_name} --chain-id=hashgard --home <path>
+hashgardd init ${your_node_name} --home <path>
 ```
 
 If you have tested the hashgard older networks, you must remove the `.hashgardd` data directory

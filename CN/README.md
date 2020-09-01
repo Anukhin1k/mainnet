@@ -11,7 +11,7 @@
 ### 步骤 2：创建钱包
 
 ```bash
-hashgardcli keys add ${your_wallet_name} --home <path>
+hashgardcli keys add ${your_wallet_name}
 ```
 
 记得在创建钱包后，将助记词妥善保存在安全的地方。
@@ -21,7 +21,7 @@ hashgardcli keys add ${your_wallet_name} --home <path>
 检测你的钱包：
 
 ```
-hashgardcli keys list --home <path>
+hashgardcli keys list
 ```
 
 ### 步骤 3：设置默认参数
@@ -29,15 +29,15 @@ hashgardcli keys list --home <path>
 设置 hashgardcli 命令行客户端的默认连接节点：
 
 ```bash
-hashgardcli config chain-id hashgard --home <path>
-hashgardcli config trust-node true --home <path>
+hashgardcli config chain-id hashgard
+hashgardcli config trust-node true
 ```
 
 格式化输出：
 
 ```plain
-hashgardcli config indent true --home <path>
-hashgardcli config output json --home <path>
+hashgardcli config indent true
+hashgardcli config output json
 ```
 
 ### 步骤 4：初始化节点并获取配置文件
@@ -80,7 +80,7 @@ hashgardd start --home <path> > hashgard.log &
 检查节点状态是否正常：
 
 ```bash
-hashgardcli status --home <path>
+hashgardcli status
 ```
 
 如果节点成功运行，您将看到以下输出:

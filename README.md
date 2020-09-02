@@ -11,7 +11,7 @@ You can install Hashgard according to [Hashgard Installation Guide](installation
 ### Step 2: Create Your Wallet
 
 ```bash
-hashgardcli keys add ${your_wallet_name} --home <path>
+hashgardcli keys add ${your_wallet_name}
 ```
 
 Remember to write your seed phrase in a safe place after you created a wallet.
@@ -21,7 +21,7 @@ It is the only way to recover your account if you ever forget your password.
 Check your wallets:
 
 ```bash
-hashgardcli keys list --home <path>
+hashgardcli keys list
 ```
 
 ### Step 3: Configure the Client
@@ -29,15 +29,15 @@ hashgardcli keys list --home <path>
 Configure the default node to connect to:
 
 ```plain
-hashgardcli config chain-id hashgard --home <path>
-hashgardcli config trust-node true --home <path>
+hashgardcli config chain-id hashgard
+hashgardcli config trust-node true
 ```
 
 Format the output:
 
 ```plain
-hashgardcli config indent true --home <path>
-hashgardcli config output json --home <path>
+hashgardcli config indent true
+hashgardcli config output json
 ```
 
 ### Step 4：Initialize the Node and Download Config Files
@@ -79,7 +79,7 @@ hashgardd start --home <path> > hashgard.log &
 Check the status of your node:
 
 ```bash
-hashgardcli status --home <path>
+hashgardcli status
 ```
 
 You will see the output below if it runs well:

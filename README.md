@@ -129,8 +129,12 @@ Congratulations! You've started a Hashgard Node and joined Hashgard Testnet succ
 
 You have an active Hashgard Full Node now. What's next?
 
-### Step 5: Upgrade to Validator Node
+### Step 6: Upgrade to Validator Node
 
 you can upgrade your node to Validator Node according to [Create Validator](./create-validator.md).
 
 You could try Delegate, Undelegate, Redelegate.
+
+### Step 7: Validator issue Token
+
+When your node becomes a hashgard verifier node and meets the conditions, you can issue a custom token.

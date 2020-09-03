@@ -137,4 +137,4 @@ You could try Delegate, Undelegate, Redelegate.
 
 ### Step 7: Validator issue Token
 
-When your node becomes a hashgard verifier node and meets the conditions, you can issue a custom token.
+When your node becomes a hashgard verifier node and meets the conditions, you can [issue a custom token](./issue-token.md).

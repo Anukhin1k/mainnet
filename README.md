@@ -121,9 +121,9 @@ You will see the output below if it runs well:
 }
 ```
 
-The value of `catching_up` is `false`, means the block data of your node has been synchronized with the testnet, or it is synchronizing.
+The value of `catching_up` is `false`, means the block data of your node has been synchronized with the mainnet, or it is synchronizing.
 
-Congratulations! You've started a Hashgard Node and joined Hashgard Testnet successfully。
+Congratulations! You've started a Hashgard Node and joined Hashgard Mainnet successfully。
 
 ## Next Steps
 

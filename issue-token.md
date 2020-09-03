@@ -22,7 +22,7 @@ As long as the self-built node validator maintains the minimum amount of staked 
 查询命令：
 
 ```
-hashgardcli query staking issue-token-config --home <path>
+hashgardcli query staking issue-token-config
 ```
 
 返回结果：
@@ -53,7 +53,7 @@ hashgardcli query staking issue-token-config --home <path>
 issue-token：
 
 ```
-hashgardcli tx staking issue-token stake_issue_token.json --from ${name} --home <path>
+hashgardcli tx staking issue-token stake_issue_token.json --from ${name}
 ```
 
 `stake_issue_token.json`：

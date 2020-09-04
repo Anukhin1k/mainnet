@@ -49,7 +49,7 @@ hashgardcli tx staking create-validator \
 You can get details of your validator:
 
 ```bash
-hashgardcli query staking validator ${validator-address} --home <path>
+hashgardcli query staking validator ${validator-address}
 ```
 
 You can confirm that you are in the validator set by using gardplorer:
